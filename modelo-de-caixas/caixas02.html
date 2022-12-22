@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags em HTML</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            
+        }
+        header{
+            color: white;
+            background-color: black;
+            margin: 0px;
+            padding: 26px;
+        }
+
+        nav{
+            padding: 7px;
+            box-shadow: inset -1px -1px 5px white;
+
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: underline;
+            margin-right: 8px;
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            text-align: center;
+            background-color: white;
+            margin: 19px;
+            padding: 10px;
+            border-radius: 40px;
+        }
+        
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptas consectetur id rerum atque quo ea, labore voluptatem odio sequi eius repellat quos. Sunt aspernatur id ullam repellendus dicta nostrum?</p>
+                <aside> 
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+
+            </article>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p>Allanzinho ;)</p>
+    </footer>
+
+    <div id="bola">
+    </div>
+
+</body>
+</html>

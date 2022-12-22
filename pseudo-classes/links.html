@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- 
+        # = id
+        . = class
+        : = pseudo-class
+        :: = psdeudo-element
+        > = children
+     -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            background-color: rgb(113, 209, 113);
+            font-family: sans-serif;
+        }
+        a{
+            color:rgb(255, 9, 9);
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgb(25, 148, 148);
+        }
+
+        a:hover{
+            color:black;
+            text-decoration: underline;
+        }
+        
+        .especial-a{
+            background-color: rgb(255, 7, 243);
+        }
+
+        .especial-a::after{
+            content: '⇐';
+            color: black;
+        }
+        .especial-a::before{
+            content: '⇒';
+            color: black;
+        }
+        
+        abbr{
+            text-decoration: none;
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://youtu.be/_AWL9YFJoRs"
+             target="_blank" rel="external">
+             <abbr title="Clica aí meu patrão">Panqueca de paneton</abbr>e</a>
+            </li>
+        <li><a href="https://youtu.be/o70hELc2jK4"
+             target="_blank" rel="external" class="especial-a">
+             <abbr title="MENDOIIIIIIIIIIIIIIIIIIIIIIM">Amendoin com casca descascada</abbr></a>
+            </li>
+        <li><a href="https://youtu.be/yBihoiSHwao"
+             target="_blank" rel="external">
+             <abbr title="COQUINHUUUUUU AIN">Cocada sem coco</abbr></a>
+            </li>
+    </ul>
+
+</body>
+</html>

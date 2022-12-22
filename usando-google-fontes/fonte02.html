@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando fontes externas baixadas</title>
+    <style>
+        @font-face {
+            font-family: 'pokemon';
+            src: url('fontes/Pokemon\ Hollow.ttf') format('truetype'), url('fontes/Pokemon\ Solid.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            
+
+            /* Tipos de Formatos
+            - openType (otf)
+            - truetype (ttf)
+            - embedded.opentype
+            - truetype-aat (Apple advanced typography)
+            - svg
+            */
+        }
+        body{
+
+            font-family: 'pokemon';
+            font-size: 1.2em;
+            background-color: white;
+        }
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2{
+            text-align: left;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Título Central</h1>
+
+        <h2>Subtítulo </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatum voluptate atque maxime, nesciunt numquam laborum sed fugiat consectetur commodi asperiores veniam quia ex deserunt assumenda nostrum nam cum molestias?</p>
+
+        <h2>Subtítulo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, eius officiis autem fugit quasi delectus quis eveniet totam optio dolore tenetur aliquam possimus pariatur adipisci corrupti aut hic aliquid dolorum.</p>
+
+</body>
+</html>

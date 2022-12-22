@@ -1,0 +1,47 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cinzel&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: courier prime;
+    src: url(fontes/CourierPrime-Regular.ttf) format('truetype');
+}
+body{
+    background-color: #7cfcfc;
+    font-family: courier prime;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+h1.principal{
+    background-color: #7cfcfc;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Alfa Slab One
+    
+    
+    
+}
+h2{
+    text-indent: 14px;
+    color: rgb(0, 189, 236);
+    font-size: 1.5em;
+}
+h2.basico{
+    color: green;
+}
+
+h2.intermedio{
+    color: orange;
+}
+
+h2.avancado{
+    color: red;
+}
+
+p{
+    text-indent: 25px;
+    text-align: justify;
+}
