@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de tabelas</title>
+    <style>
+        body{
+            background-color: gray;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        tr.destaque{
+            background-color: rgb(61, 175, 61);
+        }
+
+        .amarelo{
+            background-color: yellow;
+        }
+
+        .rosa{
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="rosa" span="2">
+            <col class="amarelo">
+            <col class="rosa">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th colspan="">Nome</th>
+            <th colspan="">Sexo</th>
+            <th colspan="">Idade</th>
+            <th colspan="">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>João Pedro</td>
+            <td>Masculino</td>
+            <td>20</td>
+            <td>Carpinteiro</td>
+        </tr>
+
+        <tr>
+            <td>Genoveva</td>
+            <td>Feminino</td>
+            <td>72</td>
+            <td>Aposentada</td>
+        </tr>
+
+        <tr>
+            <td>Adalmir</td>
+            <td>Masculino</td>
+            <td>28</td>
+            <td>Vagabundo</td>
+        </tr>
+
+        <tr>
+            <td>Joaquim</td>
+            <td>Masculino</td>
+            <td>15</td>
+            <td>Estudante</td>
+        </tr>
+
+        <tr>
+            <td>Valentina</td>
+            <td>Feminino</td>
+            <td>9</td>
+            <td>Estudante</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
